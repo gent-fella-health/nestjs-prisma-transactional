@@ -38,7 +38,7 @@ export class TransactionExplorer implements OnModuleInit {
 
     instances.forEach((instance) => {
       const prototype = Object.getPrototypeOf(instance);
-      const methodNames = this.metadataScanner.getAllMethodNames(prototype);
+      const methodNames = this.metadataScanner.scanFromPrototype(prototype, Object.getPrototypeOf(prototype), (name) => name);
 
       methodNames.forEach((name) => {
         const method = instance[name];

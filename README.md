@@ -43,6 +43,7 @@ export class AppModule {}
 ### Step 2: Extend PrismaClient
 
 I provide the extension so that you can freely extend `PrismaClient`. My extension does not modify the type of the existing `PrismaClient`, so you can simply extend and inject your own Client.
+
 ```typescript
 import { TransactionModule } from '@takeny1998/nestjs-prisma-transactional';
 
