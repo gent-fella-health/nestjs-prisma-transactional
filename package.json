@@ -7,7 +7,10 @@
   "module": "esm/index.js",
   "scripts": {
     "build": "rm -rf dist esm && tsc -p tsconfig.build.json && tsc -p tsconfig.esm.json",
-    "test": "jest"
+    "test": "jest",
+    "code:format": "prettier --write \"src/**/*.ts\"",
+    "code:check": "prettier --check \"src/**/*.ts\"",
+    "prepare": "npm run build"
   },
   "files": [
     "esm",
