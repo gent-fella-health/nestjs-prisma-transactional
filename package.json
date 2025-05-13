@@ -1,6 +1,6 @@
 {
   "name": "nestjs-prisma-transactional",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Handling transaction with decorator in the NestJS and PrismaORM environments",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
