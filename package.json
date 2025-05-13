@@ -1,6 +1,6 @@
 {
   "name": "nestjs-prisma-transactional",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Handling transaction with decorator in the NestJS and PrismaORM environments",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,7 +27,7 @@
     "url": "https://github.com/gent-fella-health/nestjs-prisma-transactional/issues"
   },
   "homepage": "https://github.com/gent-fella-health/nestjs-prisma-transactional#readme",
-  "peerDependencies": { 
+  "peerDependencies": {
     "prettier": "^2.3.2",
     "@nestjs/common": ">=8.0.0 <11.0.0",
     "@nestjs/core": ">=8.0.0 <11.0.0",
